@@ -1,4 +1,4 @@
-package src.main.java.generics.comparableXcomparator;
+package src.main.java.comparableXcomparator;
 
 import java.util.Comparator;
 
