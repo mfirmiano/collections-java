@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a929d72d-2a36-41a8-bdb6-2d84a54124fd" name="Changes" comment="Atualiza Livro.java" />
+    <list default="true" id="a929d72d-2a36-41a8-bdb6-2d84a54124fd" name="Changes" comment="Atualiza árvore de diretórios" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +106,7 @@
       <updated>1694183052971</updated>
       <workItem from="1694183061382" duration="1959000" />
       <workItem from="1694215895481" duration="3366000" />
-      <workItem from="1694251149971" duration="2647000" />
+      <workItem from="1694251149971" duration="2965000" />
     </task>
     <task id="LOCAL-00001" summary="Finaliza o JavaGenericTypes e o GenericsExempleList com testes">
       <option name="closed" value="true" />
@@ -148,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694253777589</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Atualiza árvore de diretórios">
+      <option name="closed" value="true" />
+      <created>1694254141742</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694254141742</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +168,7 @@
     <MESSAGE value="Adiciona ao gitignore" />
     <MESSAGE value="atualiza gitignore" />
     <MESSAGE value="Atualiza Livro.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atualiza Livro.java" />
+    <MESSAGE value="Atualiza árvore de diretórios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atualiza árvore de diretórios" />
   </component>
 </project>
