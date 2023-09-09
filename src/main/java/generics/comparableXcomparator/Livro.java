@@ -57,7 +57,7 @@ class CompararAnoAutorTitulo implements Comparator<Livro>{
             return ano;
         int autor = livro1.getAutor().compareTo(livro2.getAutor());
         if (autor != 0)
-            return autor
+            return autor;
         return livro1.getTitulo().compareTo(livro2.getTitulo());
     }
 }
