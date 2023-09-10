@@ -56,6 +56,5 @@ public class CarrinhoDeCompras {
 
         System.out.println("Valor total: R$ " + carrinhoDeCompras.calcularValorTotal());
 
-
     }
 }
