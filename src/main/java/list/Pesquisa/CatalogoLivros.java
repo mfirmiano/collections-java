@@ -1,4 +1,4 @@
-package src.main.java.list.Ordenacao;
+package src.main.java.list.Pesquisa;
 
 import java.util.ArrayList;
 import java.util.List;

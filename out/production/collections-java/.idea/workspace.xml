@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a929d72d-2a36-41a8-bdb6-2d84a54124fd" name="Changes" comment="Atualiza workspace.xml">
-      <change afterPath="$PROJECT_DIR$/src/main/java/list/OperacoesBasicas/CarrinhoDeCompras.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/list/OperacoesBasicas/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a929d72d-2a36-41a8-bdb6-2d84a54124fd" name="Changes" comment="Atualiza CarrinhoDeCompras e adiciona Livro e CatalogoLivros" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +68,33 @@
       <recent name="src.main.java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ListaTarefa">
+  <component name="RunManager" selected="Application.CatalogoLivros">
+    <configuration name="CarrinhoDeCompras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.main.java.list.OperacoesBasicas.CarrinhoDeCompras" />
+      <module name="collections-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.main.java.list.OperacoesBasicas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CatalogoLivros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.main.java.list.Ordenacao.CatalogoLivros" />
+      <module name="collections-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.main.java.list.Ordenacao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GenericsExempleList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.main.java.generics.GenericsExempleList" />
       <module name="collections-java" />
@@ -114,6 +136,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CatalogoLivros" />
+        <item itemvalue="Application.CarrinhoDeCompras" />
         <item itemvalue="Application.ListaTarefa" />
         <item itemvalue="Application.GenericsExempleSet" />
         <item itemvalue="Application.GenericsExempleList" />
@@ -131,7 +155,8 @@
       <workItem from="1694183061382" duration="1959000" />
       <workItem from="1694215895481" duration="3366000" />
       <workItem from="1694251149971" duration="10784000" />
-      <workItem from="1694292592156" duration="3742000" />
+      <workItem from="1694292592156" duration="6553000" />
+      <workItem from="1694349788583" duration="5440000" />
     </task>
     <task id="LOCAL-00001" summary="Finaliza o JavaGenericTypes e o GenericsExempleList com testes">
       <option name="closed" value="true" />
@@ -205,7 +230,47 @@
       <option name="project" value="LOCAL" />
       <updated>1694260400545</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Finaliza atividade CarrinhoDeCompras">
+      <option name="closed" value="true" />
+      <created>1694299381277</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1694299381277</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Atualiza workspace.xml">
+      <option name="closed" value="true" />
+      <created>1694299435263</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1694299435263</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Atualiza gitignore">
+      <option name="closed" value="true" />
+      <created>1694299546227</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1694299546227</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Atualiza unversioned files">
+      <option name="closed" value="true" />
+      <created>1694299566618</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1694299566618</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Atualiza CarrinhoDeCompras e adiciona Livro e CatalogoLivros">
+      <option name="closed" value="true" />
+      <created>1694355260227</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1694355260227</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,8 +284,12 @@
     <MESSAGE value="Atualiza Livro.java" />
     <MESSAGE value="Atualiza árvore de diretórios" />
     <MESSAGE value="Testa ListaTarefa e Tarefa" />
+    <MESSAGE value="Finaliza atividade CarrinhoDeCompras" />
     <MESSAGE value="Atualiza workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atualiza workspace.xml" />
+    <MESSAGE value="Atualiza gitignore" />
+    <MESSAGE value="Atualiza unversioned files" />
+    <MESSAGE value="Atualiza CarrinhoDeCompras e adiciona Livro e CatalogoLivros" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atualiza CarrinhoDeCompras e adiciona Livro e CatalogoLivros" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
