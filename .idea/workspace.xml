@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a929d72d-2a36-41a8-bdb6-2d84a54124fd" name="Changes" comment="Atualiza CarrinhoDeCompras e adiciona Livro e CatalogoLivros">
-      <change afterPath="$PROJECT_DIR$/src/main/java/list/Ordenacao/OrdenacaoNumeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/list/Ordenacao/OrdenacaoPessoas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/list/Pesquisa/SomaNumeros.java" afterDir="false" />
+    <list default="true" id="a929d72d-2a36-41a8-bdb6-2d84a54124fd" name="Changes" comment="Atualiza os diretórios e classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/collections-java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/collections-java/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/collections-java/src/main/java/list/OperacoesBasicas/CarrinhoDeCompras.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/collections-java/src/main/java/list/OperacoesBasicas/CarrinhoDeCompras.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/list/Ordenacao/CatalogoLivros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/Pesquisa/CatalogoLivros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/list/Ordenacao/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/Pesquisa/Livro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,21 +50,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="src.main.java" />
@@ -166,7 +160,7 @@
       <workItem from="1694251149971" duration="10784000" />
       <workItem from="1694292592156" duration="6553000" />
       <workItem from="1694349788583" duration="5440000" />
-      <workItem from="1694371789467" duration="622000" />
+      <workItem from="1694371789467" duration="1701000" />
     </task>
     <task id="LOCAL-00001" summary="Finaliza o JavaGenericTypes e o GenericsExempleList com testes">
       <option name="closed" value="true" />
@@ -280,7 +274,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694355260227</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Atualiza os diretórios e classes">
+      <option name="closed" value="true" />
+      <created>1694372499656</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1694372499656</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,7 +301,8 @@
     <MESSAGE value="Atualiza gitignore" />
     <MESSAGE value="Atualiza unversioned files" />
     <MESSAGE value="Atualiza CarrinhoDeCompras e adiciona Livro e CatalogoLivros" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atualiza CarrinhoDeCompras e adiciona Livro e CatalogoLivros" />
+    <MESSAGE value="Atualiza os diretórios e classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atualiza os diretórios e classes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
