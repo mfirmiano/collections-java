@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a929d72d-2a36-41a8-bdb6-2d84a54124fd" name="Changes" comment="Atualiza classes e inclui exercícios realizados.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/set/Ordenacao/CadastroProdutos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/set/Ordenacao/Produto.java" afterDir="false" />
+    <list default="true" id="a929d72d-2a36-41a8-bdb6-2d84a54124fd" name="Changes" comment="Atualiza classes e Adiciona Produto e CadastroProdutos">
+      <change afterPath="$PROJECT_DIR$/src/main/java/map/OperacoesBasicas/AgendaContatos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/map/OperacoesBasicas/Dicionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/map/Ordenacao/AgendaEventos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/map/Ordenacao/Evento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/map/Pesquisa/ContagemPalavras.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/map/Pesquisa/EstoqueProdutos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/map/Pesquisa/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/collections-java/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/collections-java/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/collections-java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/collections-java/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,34 +60,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="src.main.java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CadastroProdutos">
+  <component name="RunManager" selected="Application.AgendaEventos">
     <configuration name="AgendaContatos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.main.java.set.Pesquisa.AgendaContatos" />
       <module name="collections-java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="src.main.java.set.Pesquisa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AgendaEventos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.main.java.map.Ordenacao.AgendaEventos" />
+      <module name="collections-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.main.java.map.Ordenacao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CatalogoLivros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.main.java.list.Pesquisa.CatalogoLivros" />
+    <configuration name="EstoqueProdutos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.main.java.map.Pesquisa.EstoqueProdutos" />
       <module name="collections-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.main.java.list.Pesquisa.*" />
+          <option name="PATTERN" value="src.main.java.map.Pesquisa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,25 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConjuntoConvidados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.main.java.set.OperacoesBasicas.ConjuntoConvidados" />
+    <configuration name="src.main.java.map.OperacoesBasicas.AgendaContatos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.main.java.map.OperacoesBasicas.AgendaContatos" />
       <module name="collections-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.main.java.set.OperacoesBasicas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SomaNumeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.main.java.list.Pesquisa.SomaNumeros" />
-      <module name="collections-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.main.java.list.Pesquisa.*" />
+          <option name="PATTERN" value="src.main.java.map.OperacoesBasicas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AgendaEventos" />
+        <item itemvalue="Application.EstoqueProdutos" />
+        <item itemvalue="Application.src.main.java.map.OperacoesBasicas.AgendaContatos" />
         <item itemvalue="Application.CadastroProdutos" />
         <item itemvalue="Application.AgendaContatos" />
-        <item itemvalue="Application.ConjuntoConvidados" />
-        <item itemvalue="Application.SomaNumeros" />
-        <item itemvalue="Application.CatalogoLivros" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +170,9 @@
       <workItem from="1694251149971" duration="10784000" />
       <workItem from="1694292592156" duration="6553000" />
       <workItem from="1694349788583" duration="5440000" />
-      <workItem from="1694371789467" duration="13229000" />
+      <workItem from="1694371789467" duration="13419000" />
+      <workItem from="1694506870882" duration="5245000" />
+      <workItem from="1694522693071" duration="2658000" />
     </task>
     <task id="LOCAL-00001" summary="Finaliza o JavaGenericTypes e o GenericsExempleList com testes">
       <option name="closed" value="true" />
@@ -300,7 +310,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694388218224</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Atualiza classes e Adiciona Produto e CadastroProdutos">
+      <option name="closed" value="true" />
+      <created>1694389866817</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1694389866817</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,7 +340,8 @@
     <MESSAGE value="Atualiza os diretórios e classes" />
     <MESSAGE value="atualiza workspace" />
     <MESSAGE value="Atualiza classes e inclui exercícios realizados." />
-    <option name="LAST_COMMIT_MESSAGE" value="Atualiza classes e inclui exercícios realizados." />
+    <MESSAGE value="Atualiza classes e Adiciona Produto e CadastroProdutos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atualiza classes e Adiciona Produto e CadastroProdutos" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
